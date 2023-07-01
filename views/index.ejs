@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .container{
+            width: 80%;
+            margin-left: 3%;
+            margin-right: 3%;
+
+        }
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="">
+            <h1>Reset Your Password</h1>
+            <p>
+                <%=email%>
+            </p>
+        </div>
+        <div class="form">
+            <form action="" method="POST">
+                
+                <input type="password" name="password" placeholder="Enter new password" class=""> <br><br>
+                
+                <input type="password" name="confirm-password" placeholder="Enter the password again"><br><br>
+                <button type="submit">Reset Password</button>
+            </form>
+            <a href="/login">Login</a>
+        </div>
+    </div>
+</body>
+</html>
